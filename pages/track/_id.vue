@@ -23,7 +23,7 @@
       </v-row>
       <v-row>
         <v-col>
-          <Chart :chartseries="chartseries" />
+          <!-- <Chart :chartseries="chartseries" />-->
         </v-col>
         <v-col>
           <Track :track="track" :loading="trackloading" />
@@ -35,12 +35,11 @@
 
 <script>
 import moment from 'moment'
-import { Track, Chart } from '~/components'
+import { Track } from '~/components'
 
 export default {
   components: {
-    Track,
-    Chart
+    Track
   },
   data () {
     return {
