@@ -1,0 +1,39 @@
+{
+  "name": "edatsvuenuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "apexcharts": "^3.22.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "jspdf": "^2.1.1",
+    "jspdf-autotable": "^3.5.13",
+    "n8n-editor-ui": "^0.57.1",
+    "nuxt": "^2.14.5",
+    "socket.io": "^2.3.0",
+    "vue-moment": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "bufferutil": "^4.0.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "moment": "^2.29.0",
+    "utf-8-validate": "^5.0.2",
+    "vue-apexcharts": "^1.6.0"
+  }
+}
