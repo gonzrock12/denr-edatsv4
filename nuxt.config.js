@@ -25,7 +25,10 @@ export default {
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '~/plugins/repository', mode: 'client' }],
+  plugins: [
+    { src: '~/plugins/repository', mode: 'client' },
+    { src: '~/plugins/chart.js', mode: 'client' }
+  ],
 
 
   auth: {
@@ -83,7 +86,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'http://192.168.254.112:8080/api'
+    baseURL: 'http://192.168.254.117:8080/api'
   },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)

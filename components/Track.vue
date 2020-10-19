@@ -15,6 +15,13 @@
       <template v-slot:[`item.created_at`]="{ item }">
         <span class="caption">{{ $moment(item.created_at).format('L LT') }}</span>
       </template>
+      <template v-slot:body.append>
+        <tr>
+          <td colspan="5" class="font-italic caption">
+            Total Durations: <span class="font-weight-bold">{{ track.total_durations }}</span>
+          </td>
+        </tr>
+      </template>
     </v-data-table>
   </div>
 </template>
